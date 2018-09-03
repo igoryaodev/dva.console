@@ -1,0 +1,131 @@
+@import '~antd/lib/style/themes/default.less';
+@import '../../../utils/utils.less';
+
+.formControl {
+  width: 100%;
+  border: 1px solid rgb(221, 221, 221);
+  outline: none;
+}
+.title {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.miniImage {
+}
+.imageWrap {
+  margin-top: 30px;
+  .imageUpload {
+    position: relative;
+    width: 370px;
+    height: 195px;
+    background-color: #eee;
+    overflow: hidden;
+    span {
+      width: 370px;
+      height: 195px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 30px;
+    }
+    img {
+      width: 370px;
+      height: 195px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      display: inline-block;
+    }
+    input {
+      width: 370px;
+      height: 195px;
+      box-sizing: border-box;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 3;
+      opacity: 0;
+      cursor: pointer;
+      overflow: hidden;
+    }
+  }
+}
+.table {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  overflow-x: scroll;
+}
+.tableRow {
+  min-width: 2000px;
+}
+.inputNumber {
+  width: 160px;
+  height: 38px;
+  border: 0;
+  box-sizing: border-box;
+  padding: 0 4px !important;
+  line-height: 38px !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  // outline: none;
+}
+.disableColor {
+  color: #999 !important;
+}
+.skuEditCards {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+.firstSkuCol {
+  border-top: 0;
+  display: flex;
+  .thirdSkuColItem,
+  .secondSkuColItem,
+  .firstSkuColItem {
+    border: 1px solid #eee;
+    display: flex;
+    width: 200px;
+    min-width: 200px;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    font-size: 12px;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .secondSkuCol {
+    border-left: 1px solid #eee;
+    display: flex;
+  }
+  .thirdSkuCol {
+    display: flex;
+  }
+  .thirdSkuColItem {
+    height: 50px;
+    // border: 1px solid #eee;
+    // border-bottom: 0;
+    word-break: break-all;
+    input {
+      // outline: none;
+      color: #000;
+      text-align: center;
+    }
+  }
+  .inputnumber {
+    // width: 120px;
+    // text-align: center;
+  }
+}

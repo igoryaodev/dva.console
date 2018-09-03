@@ -1,0 +1,40 @@
+@import '~antd/lib/style/themes/default.less';
+@import '../../../utils/utils.less';
+.tableSection {
+  margin-bottom: 20px;
+  text-align: right;
+}
+.skuTable {
+  min-width: 1000px;
+  overflow: hidden;
+  overflow-x: auto;
+}
+.firstSkuCol {
+  // border: 1px solid #eee;
+  border-top: 0;
+  display: flex;
+  .thirdSkuColItem,
+  .secondSkuColItem,
+  .firstSkuColItem {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    border: 1px solid #eee;
+    align-items: center;
+  }
+  .secondSkuCol {
+    display: flex;
+  }
+  .thirdSkuCol {
+    display: flex;
+  }
+  .thirdSkuColItem {
+    height: 40px;
+    // border: 1px solid #eee;
+    // border-bottom: 0;
+  }
+  .inputnumber {
+    width: 120px;
+    text-align: center;
+  }
+}

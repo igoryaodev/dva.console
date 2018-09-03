@@ -1,0 +1,14 @@
+input,
+select{
+  min-width: 160px;
+  height: 32px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  width: 100%; 
+}
+.delete{
+  color: red;
+}
+body{
+  background-color: red;
+}

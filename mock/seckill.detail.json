@@ -1,0 +1,49 @@
+{
+    "name": "第13次表白—世界是善意的",
+    "description": "pptest description",
+    "picUrl": "http://vart.cc",
+    "isDelete": false,
+    "distribution": 1,
+    "distributionPrice": 10.00,
+    "createTime": "2018-06-10T21:32:28.232018",
+    "createdBy": 1,
+    "updateTime": "2018-06-10T21:32:28.232018",
+    "updatedBy": 0,
+    "uploadTime": "2018-06-10T21:32:28.232018",
+    "downloadTime": "2018-06-10T21:32:28.232018",
+    "startTime": "2018-06-10T21:32:28.232018",
+    "endTime": "2018-06-10T21:32:28.232018",
+    "productSpecs": [
+        {
+            "specType": "color1",
+            "specName": "red1",
+            "subSpecs": [
+                {
+                    "specType": "size1",
+                    "specName": "S1",
+                    "subSpecs": [
+                        {
+                            "specType": "meterial1",
+                            "specName": "牛皮1",
+                            "sku": "20180608224561",
+                            "isEnable": true,
+                            "picUrlList": null,
+                            "picUrl": "http://www.vart.c1c",
+                            "price": 20.00,
+                            "activityPrice": 18.00,
+                            "vipPrice": 16.00,
+                            "inventory": 3,
+                            "preInventory": 0,
+                            "distributionPrice": 0.00,
+                            "endTime": "2018-06-10T21:32:28.232018",
+                            "createTime": "2018-06-10T21:32:28.2320984",
+                            "createdBy": 0,
+                            "updateTime": "2018-06-10T21:32:28.232018",
+                            "updatedBy": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
